@@ -1,0 +1,11 @@
+.add-score_container {
+  height: 100vh;
+  background-color: #90e0ef;
+
+}
+
+.add-score_title {
+  width: 76%;
+  text-align: center;
+  margin-left: 12%;
+}

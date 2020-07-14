@@ -1,0 +1,18 @@
+.home-main {
+  background-color: #90e0ef;
+  height: 100vh;
+}
+
+.title {
+  font-size: 3rem;
+  color: #03045e;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.phone-icon {
+  height: 9rem;
+  width: 40%;
+  margin-left: 30%;
+}

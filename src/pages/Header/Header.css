@@ -1,0 +1,76 @@
+.header_main {
+  background-color: #03045e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.btn_container {
+  background: none;
+  border: none;
+  text-decoration: none;
+}
+
+.menu_btn {
+  font-size: 2rem;
+  color: #90e0ef;
+}
+
+.signout-icon {
+  font-size: 2rem;
+  color: #90e0ef;
+}
+
+.home-icon {
+  font-size: 3rem;
+  color: #90e0ef;
+}
+
+/* nav menu styling */
+
+.nav-main {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 7px rgba(0,0,0,0.22);
+  border-top: none;
+  background-color: #03045e;
+  border-left: none;
+  border-radius: 0 0 6% 0;
+  position: absolute;
+  width: 50%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.nav_btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  text-decoration: none;
+}
+
+.nav_label {
+  color: #caf0f8;
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 70%;
+  margin-left: 2%;
+  text-align: left;
+}
+
+.settings_wrapper {
+  margin-top: 48vh;
+  align-items: center;
+  /* padding-top: .5rem; */
+}
+
+.settings_label {
+  font-size: 1.25rem;
+}
+
+.settings_icon {
+  height: 2rem;
+}

@@ -34,7 +34,7 @@
   border-top: none;
   background-color: #03045e;
   border-left: none;
-  border-radius: 0 0 6% 0;
+  border-radius: 0 0 1% 0;
   position: absolute;
   width: 50%;
   height: 75vh;
@@ -73,4 +73,9 @@
 
 .settings_icon {
   height: 2rem;
+}
+
+#menu_icon {
+  height: 2.75rem;
+  padding-top: .25rem;
 }

@@ -37,6 +37,10 @@ const HeaderView = (props) => {
           <img src={currentPage === '/add_score' ? PencilActive : Pencil} alt='pencil icon' className='nav_icon' />
           <p className='nav_label game_label' style={currentPage === '/add_score' ? {color: '#fcd5ce'} : null}>Add Score</p>
         </Link>
+        <Link to='/create_player' className='nav_btn-wrapper'>
+          <img src={currentPage === '/add_score' ? PencilActive : Pencil} alt='pencil icon' className='nav_icon' />
+          <p className='nav_label game_label' style={currentPage === '/create_player' ? {color: '#fcd5ce'} : null}>Create Player</p>
+        </Link>
         <div className='nav_btn-wrapper'>
           <img src={Dice} alt='dice icon' className='nav_icon' />
           <p className='nav_label game_label'>Game Modes</p>
